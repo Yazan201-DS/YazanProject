@@ -1,0 +1,91 @@
+body{
+  background-image: url(./images/sky.jpg);
+  height: 100%;
+  background-repeat:repeat;
+  background-size: cover;
+  
+}
+main{height: 100%;}
+
+
+
+ul {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.contact{
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid red;
+  display: flex;
+  gap: 18px;
+  width: 50%;
+}
+.contact_img {
+  /* min-width: 100px; */
+  width: 50%;
+  border-right: 1px solid;
+}
+.contact_img>img{
+  width: 84px;
+  border-radius: 50%;
+}
+
+
+.contact_name{
+  align-content: center;
+  padding-left: 25px;
+  font-size: 22px;
+}
+.btns {
+  
+  border: 1px solid red;
+  align-content: center;
+  background-color: rgb(7, 7, 7);
+}
+.btn{
+  cursor: pointer;
+}
+.btn>img{
+  width: 34px;
+}
+header{
+  margin: auto;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: max-content;
+  border: 3px solid rgb(56, 58, 45);
+  align-content: center;
+  color: aliceblue;
+  background-color: black;
+}
+footer{
+  margin: auto;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: max-content;
+  border: 3px solid rgb(56, 58, 45);
+  align-content: center;
+  color: aliceblue;
+  background-color: black;
+
+}
